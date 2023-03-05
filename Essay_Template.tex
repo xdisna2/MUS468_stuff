@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[doublespacing]{setspace}
+\usepackage{indentfirst}
+\newif{\ifdraft}
+\drafttrue
+
+\begin{document}
+Anthony Le
+
+Prof. Roger Hickman
+
+MUS468 (Section 2)
+
+\today
+
+\begin{center}
+    \large Insert Title Here
+\end{center}
+
+\ifdraft{}
+\section*{\underline{Prompt:}}
+\noindent Insert Prompt Here
+
+\section*{\underline{Brainstorm:}}
+\begin{itemize}
+    \item This is an item
+\end{itemize}
+\fi
+
+\ifdraft{}
+\section*{\underline{Paragraph 1:}}
+\fi
+
+\ifdraft{}
+\section*{\underline{Paragraph 2:}}
+\fi
+
+\ifdraft{}
+\section*{\underline{Paragraph 3:}}
+\fi
+
+\ifdraft{}
+\section*{\underline{Paragraph 4:}}
+\fi
+
+\end{document}
